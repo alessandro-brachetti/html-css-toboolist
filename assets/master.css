@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #F5F5F5;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background: #FFFFFF;
+  vertical-align: middle;
+}
+
+.logo {
+  vertical-align: middle;
+  line-height: 80px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 3em;
+}
+
+.container1 {
+  width: 80%;
+  height: 60px;
+  margin: auto;
+  margin-top: 50px;
+  background: #FFFFFF;
+}
+
+.buttons {
+  margin-left: 70px;
+  line-height: 70px;
+}
+
+.button-1 {
+  background: #1aa3ff;
+  color: #FFFFFF;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+ .button-2 {
+  background: #FFFFFF;
+  color: #D3D3D3;
+  padding: 8px;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+}
+
+.container2 {
+  width: 80%;
+  height: 720px;
+  margin: auto;
+  background: #FFFFFF;
+  margin-top: 2px;
+}
+
+.lists {
+ margin-left: 70px;
+ padding-top: 20px;
+}
+
+.to-do {
+ padding-top: 20px;
+}
+
+.to-do, h2:before {
+ content: "\25be";
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 25px;
+}
+
+.item {
+  font-size: 20px;
+  padding-left: 10px;
+}
+.symbol1 {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: #66CDAA;
+  border: 1px solid #66CDAA;
+}
+
+.symbol2 {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: red;
+  border: 1px solid red;
+}
+
+.checked {
+  padding-left: 2.5px;
+  line-height: 20px;
+  color: #66CDAA;
+}
+
+.unchecked {
+  padding-left: 3px;
+  line-height: 18px;
+  font-size: 22px;
+  color: red;
+}
+.nametag {
+  display: inline-block;
+  height: 30px;
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+  line-height: 10px;
+  border-radius: 15px;
+  color: white;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.blue {
+  background-color: #1aa3ff;
+}
+
+.purple {
+  background-color:  #ff80aa;
+}
+
+.green {
+  background-color: #66CDAA;
+}
+
+.orange {
+  background-color: #ffa64d;
+}
+
+.sourgreen {
+  background-color: #9ACD32;
+}
